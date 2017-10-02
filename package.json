@@ -1,0 +1,9 @@
+{
+  "name": "react_on_rails_calendar",
+  "private": true,
+  "dependencies": {
+  },
+  "scripts": {
+    "postinstall": "cd client && yarn install"
+  }
+}

@@ -1,0 +1,35 @@
+body{
+  width: 500px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  padding-bottom: 200px;
+}
+
+.appt_title{
+  width: 250px;
+  text-align: center;
+}
+
+.submit-button{
+  background: #C00;
+  color: #FFF;
+  cursor: pointer;
+  border: 0;
+  box-shadow: none;
+  border-radius: 0px;
+  font-size: 20px;
+  padding: 10px;
+  width: 250px;
+}
+
+.submit-button:disabled{
+  background: #bbb;
+  cursor: not-allowed;
+}
+
+.appointment{
+  padding-top: 10px;
+  border-bottom: solid 1px #CCC;
+}
